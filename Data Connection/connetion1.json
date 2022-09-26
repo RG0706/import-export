@@ -1,0 +1,25 @@
+{
+  "data" : [
+    {
+      "credential_type" : "Username with password",
+      "credential_name" : "sample_postgres",
+      "dataplace_name" : "sample_postgres_mt3054",
+      "is_active" : true,
+      "is_sensitive" : false,
+      "connection_type" : "postgres",
+      "description" : "",
+      "source_info" : {
+        "database_name" : "Training_new",
+        "filter_list" : [
+          {
+            "filter_value" : "public",
+            "filter_type" : "Where IN clause"
+          }
+        ],
+        "filters_enabled" : true,
+        "host_name" : "w3.training4.modak.com:5432"
+      }
+    }
+  ],
+  "dataplace_tag_details" : []
+}
