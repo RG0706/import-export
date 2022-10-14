@@ -1,0 +1,21 @@
+{
+  "data" : [
+    {
+      "credential_type" : "Username with password",
+      "credential_name" : "SK2007_SQL_server_test",
+      "dataplace_name" : "SQL_server_SK2007",
+      "is_active" : true,
+      "is_sensitive" : false,
+      "connection_type" : "sql_server",
+      "description" : "",
+      "source_info" : {
+        "database_name" : "test",
+        "is_jdbc_url" : true,
+        "filters_enabled" : false,
+        "jdbc_url" : "jdbc:jtds:sqlserver://w3.devsql.modak.com;databaseName=test",
+        "host_name" : "w3.devsql.modak.com:1433"
+      }
+    }
+  ],
+  "dataplace_tag_details" : []
+}
